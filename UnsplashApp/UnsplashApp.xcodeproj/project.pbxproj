@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9349F164286C722E00C9F365 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349F163286C722E00C9F365 /* SearchViewController.swift */; };
+		9349F166286C726A00C9F365 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349F165286C726A00C9F365 /* ProfileViewController.swift */; };
+		9349F168286C748B00C9F365 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349F167286C748B00C9F365 /* TabBar.swift */; };
 		93A6BBD428689FBE006489EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6BBD328689FBE006489EF /* AppDelegate.swift */; };
 		93A6BBD628689FBE006489EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6BBD528689FBE006489EF /* SceneDelegate.swift */; };
 		93A6BBD828689FBE006489EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6BBD728689FBE006489EF /* ViewController.swift */; };
 		93A6BBDB28689FBE006489EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A6BBD928689FBE006489EF /* Main.storyboard */; };
 		93A6BBDD28689FBE006489EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A6BBDC28689FBE006489EF /* Assets.xcassets */; };
 		93A6BBE028689FBE006489EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A6BBDE28689FBE006489EF /* LaunchScreen.storyboard */; };
+		93F7D275286CA15E00AF9D55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7D274286CA15E00AF9D55 /* Constants.swift */; };
 		C247E40D370C3A71934D6D0B /* Pods_UnsplashApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DC9AD4D7873362E84E54E /* Pods_UnsplashApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ED8FFBA385AC7DB2044D387 /* Pods-UnsplashApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashApp.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashApp/Pods-UnsplashApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4C5DC9AD4D7873362E84E54E /* Pods_UnsplashApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9349F163286C722E00C9F365 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9349F165286C726A00C9F365 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9349F167286C748B00C9F365 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		93A6BBD028689FBE006489EF /* UnsplashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A6BBD328689FBE006489EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A6BBD528689FBE006489EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +34,7 @@
 		93A6BBDC28689FBE006489EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93A6BBDF28689FBE006489EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93A6BBE128689FBE006489EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F7D274286CA15E00AF9D55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C8EDBD02D83B8C530FA30F97 /* Pods-UnsplashApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashApp.release.xcconfig"; path = "Target Support Files/Pods-UnsplashApp/Pods-UnsplashApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +64,6 @@
 				1ED8FFBA385AC7DB2044D387 /* Pods-UnsplashApp.debug.xcconfig */,
 				C8EDBD02D83B8C530FA30F97 /* Pods-UnsplashApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +95,10 @@
 				93A6BBDC28689FBE006489EF /* Assets.xcassets */,
 				93A6BBDE28689FBE006489EF /* LaunchScreen.storyboard */,
 				93A6BBE128689FBE006489EF /* Info.plist */,
+				9349F163286C722E00C9F365 /* SearchViewController.swift */,
+				9349F165286C726A00C9F365 /* ProfileViewController.swift */,
+				9349F167286C748B00C9F365 /* TabBar.swift */,
+				93F7D274286CA15E00AF9D55 /* Constants.swift */,
 			);
 			path = UnsplashApp;
 			sourceTree = "<group>";
@@ -209,6 +220,10 @@
 			files = (
 				93A6BBD828689FBE006489EF /* ViewController.swift in Sources */,
 				93A6BBD428689FBE006489EF /* AppDelegate.swift in Sources */,
+				9349F166286C726A00C9F365 /* ProfileViewController.swift in Sources */,
+				9349F168286C748B00C9F365 /* TabBar.swift in Sources */,
+				93F7D275286CA15E00AF9D55 /* Constants.swift in Sources */,
+				9349F164286C722E00C9F365 /* SearchViewController.swift in Sources */,
 				93A6BBD628689FBE006489EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
